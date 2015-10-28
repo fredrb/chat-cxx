@@ -13,9 +13,6 @@ set(INC app/include)
 include_directories(${INC})
 set(D app/src/cs)
 
-# Linking Libraries
-# -----------------
-# CORE :
 add_library(action ${INC}/cs/core/action.h ${D}/core/action.cpp)
 add_library(message ${INC}/cs/core/message.h ${D}/core/message.cpp)
 add_library(network ${INC}/cs/core/network.h ${D}/core/network.cpp)
